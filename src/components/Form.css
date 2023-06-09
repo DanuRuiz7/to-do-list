@@ -1,0 +1,77 @@
+main {
+  background-color: rgb(202, 202, 202);
+  padding: 15px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 15px;
+}
+
+input[type="text"] {
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 11px;
+}
+
+input[type="text"]:focus {
+  border: 2px solid #4c9aff;
+  outline: none;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.75);
+}
+
+input[type="submit"] {
+  background-color: mediumblue;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.75);
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+li {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 25px;
+  background-color: rgb(133, 133, 133);
+}
+
+.btns {
+  margin-left: 100px;
+}
+
+button {
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  margin: 0 5px;
+}
+
+.btnE {
+  background-color: green;
+}
+
+.btnD {
+  background-color: red;
+}
